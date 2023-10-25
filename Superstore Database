@@ -29,11 +29,11 @@ VALUES
 #Use a SELECT statement to order the items by price.
 SELECT item_name
 FROM superstore
-ORDER BY price
+ORDER BY price;
 
 #Show a statistic about the item prices.
 SELECT SUM(price)
-FROM superstore
+FROM superstore;
 
 #Show a statistic about the price for items in the category of "Kitchen Supplies".
 SELECT COUNT(item_name)
@@ -43,4 +43,4 @@ WHERE category = 'Kitchen Supplies';
 #Show a statistic about the price for items in the category of "Electronics".
 SELECT AVG(price)
 FROM superstore
-WHERE category = 'Electronics'
+WHERE category = 'Electronics';
